@@ -1,0 +1,20 @@
+{
+    "name": "juffalow/ComposerExample",
+    "description": "Example project for article What is and how to use Composer",
+    "homepage": "https://github.com/juffalow/ComposerExample",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Matej 'juffalow' Jellus",
+            "homepage": "http://wwww.juffalow.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^4.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\" : "src"
+        }
+    }
+}
